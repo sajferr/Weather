@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:title="Speech"
+            android:icon="@drawable/speech"
+            > </item>
+
+
+        <item
+            android:id="@+id/item10"
+            android:title="Text Weather"
+            android:icon="@drawable/txtweather"
+
+            />
+
+        <item
+            android:id="@+id/item2"
+            android:title="Help"
+            android:icon="@drawable/help"
+            > </item>
+
+
+        <item
+            android:id="@+id/item3"
+            android:title="About Created"
+            android:icon="@drawable/about2"
+            > </item>
+
+
+        <item
+            android:id="@+id/item4"
+            android:title="Exit"
+            android:icon="@drawable/exit"
+            > </item>
+
+    </group>
+
+    <item android:title="web" android:id="@+id/item7"
+    >
+<menu>
+
+
+    <item
+        android:title="openweathermap.org"
+        android:id="@+id/openwea"
+        android:icon="@drawable/url"
+        ></item>
+
+
+
+
+
+    ></menu>
+
+
+
+
+
+
+
+    </item>
+
+</menu>
